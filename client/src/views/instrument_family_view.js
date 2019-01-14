@@ -12,7 +12,7 @@ bindEvents() {
   });
 };
 
-render(family) {
+render({name, description, title, instruments}) {
   this.container.innerHTML = '';
 
   const familyName = this.createElement('h2', name);
